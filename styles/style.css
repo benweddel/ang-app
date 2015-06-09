@@ -129,3 +129,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   display: block;
   height: 0;
   clear: both; }
+
+header {
+  padding: 10px 0;
+  margin: 10px 0;
+  text-align: center; }

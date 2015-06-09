@@ -1,11 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="movie">
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
   <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
   
+</head>
+<body ng-controller="MovieController as movie">
+
+<header>
+  <h1>Cool Movie App</h1>
+</header>
+
+
+  <input type="text" id="movie" ng-model="movie.name">
+  <input type="submit" value="select" id="select" ng-click="movie.buttonPress(movie.name)">
+  
+
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts/angular.min.js"></script>
+  <script type="text/javascript" src="scripts/key.js"></script>
+  <script type="text/javascript" src="scripts/app.js"></script>
 </body>
 </html>

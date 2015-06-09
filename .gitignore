@@ -2,3 +2,4 @@
 node_modules/
 images/
 gulpfile.js
+*key.js
